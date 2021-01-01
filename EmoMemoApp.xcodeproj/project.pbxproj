@@ -8,18 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		A944CF82259B43AA0065FB3F /* EmoMemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CF81259B43AA0065FB3F /* EmoMemoAppApp.swift */; };
-		A944CF84259B43AA0065FB3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CF83259B43AA0065FB3F /* ContentView.swift */; };
 		A944CF86259B43AD0065FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A944CF85259B43AD0065FB3F /* Assets.xcassets */; };
 		A944CF89259B43AD0065FB3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A944CF88259B43AD0065FB3F /* Preview Assets.xcassets */; };
+		A944CF9D259B45080065FB3F /* Kid-laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF93259B45070065FB3F /* Kid-laugh.wav */; };
+		A944CF9E259B45080065FB3F /* Kid-angry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF94259B45070065FB3F /* Kid-angry.wav */; };
+		A944CF9F259B45080065FB3F /* WinSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF95259B45070065FB3F /* WinSound.wav */; };
+		A944CFA0259B45080065FB3F /* Kid-cry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF96259B45070065FB3F /* Kid-cry.wav */; };
+		A944CFA1259B45080065FB3F /* Woman-angry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF97259B45080065FB3F /* Woman-angry.wav */; };
+		A944CFA2259B45080065FB3F /* Woman-cry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF98259B45080065FB3F /* Woman-cry.wav */; };
+		A944CFA3259B45080065FB3F /* Man-cry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF99259B45080065FB3F /* Man-cry.wav */; };
+		A944CFA4259B45080065FB3F /* Woman-laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF9A259B45080065FB3F /* Woman-laugh.wav */; };
+		A944CFA5259B45080065FB3F /* Man-laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF9B259B45080065FB3F /* Man-laugh.wav */; };
+		A944CFA6259B45080065FB3F /* Man-angry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A944CF9C259B45080065FB3F /* Man-angry.wav */; };
+		A944CFA9259B464B0065FB3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CFA8259B464B0065FB3F /* HomeView.swift */; };
+		A944CFAD259B486D0065FB3F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CFAC259B486D0065FB3F /* GameView.swift */; };
+		A944CFB0259B48BA0065FB3F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CFAF259B48BA0065FB3F /* CardView.swift */; };
+		A944CFB3259B48DA0065FB3F /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CFB2259B48DA0065FB3F /* GameController.swift */; };
+		A944CFB6259B490E0065FB3F /* EffectPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CFB5259B490E0065FB3F /* EffectPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A944CF7E259B43AA0065FB3F /* EmoMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A944CF81259B43AA0065FB3F /* EmoMemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoMemoAppApp.swift; sourceTree = "<group>"; };
-		A944CF83259B43AA0065FB3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A944CF85259B43AD0065FB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A944CF88259B43AD0065FB3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A944CF8A259B43AD0065FB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A944CF93259B45070065FB3F /* Kid-laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kid-laugh.wav"; sourceTree = "<group>"; };
+		A944CF94259B45070065FB3F /* Kid-angry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kid-angry.wav"; sourceTree = "<group>"; };
+		A944CF95259B45070065FB3F /* WinSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WinSound.wav; sourceTree = "<group>"; };
+		A944CF96259B45070065FB3F /* Kid-cry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kid-cry.wav"; sourceTree = "<group>"; };
+		A944CF97259B45080065FB3F /* Woman-angry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Woman-angry.wav"; sourceTree = "<group>"; };
+		A944CF98259B45080065FB3F /* Woman-cry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Woman-cry.wav"; sourceTree = "<group>"; };
+		A944CF99259B45080065FB3F /* Man-cry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Man-cry.wav"; sourceTree = "<group>"; };
+		A944CF9A259B45080065FB3F /* Woman-laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Woman-laugh.wav"; sourceTree = "<group>"; };
+		A944CF9B259B45080065FB3F /* Man-laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Man-laugh.wav"; sourceTree = "<group>"; };
+		A944CF9C259B45080065FB3F /* Man-angry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Man-angry.wav"; sourceTree = "<group>"; };
+		A944CFA8259B464B0065FB3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A944CFAC259B486D0065FB3F /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A944CFAF259B48BA0065FB3F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A944CFB2259B48DA0065FB3F /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		A944CFB5259B490E0065FB3F /* EffectPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +64,7 @@
 		A944CF75259B43AA0065FB3F = {
 			isa = PBXGroup;
 			children = (
+				A944CF92259B44D20065FB3F /* SoundFiles */,
 				A944CF80259B43AA0065FB3F /* EmoMemoApp */,
 				A944CF7F259B43AA0065FB3F /* Products */,
 			);
@@ -53,7 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				A944CF81259B43AA0065FB3F /* EmoMemoAppApp.swift */,
-				A944CF83259B43AA0065FB3F /* ContentView.swift */,
+				A944CFA8259B464B0065FB3F /* HomeView.swift */,
+				A944CFAC259B486D0065FB3F /* GameView.swift */,
+				A944CFAF259B48BA0065FB3F /* CardView.swift */,
+				A944CFB2259B48DA0065FB3F /* GameController.swift */,
+				A944CFB5259B490E0065FB3F /* EffectPlayer.swift */,
 				A944CF85259B43AD0065FB3F /* Assets.xcassets */,
 				A944CF8A259B43AD0065FB3F /* Info.plist */,
 				A944CF87259B43AD0065FB3F /* Preview Content */,
@@ -67,6 +100,23 @@
 				A944CF88259B43AD0065FB3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A944CF92259B44D20065FB3F /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A944CF94259B45070065FB3F /* Kid-angry.wav */,
+				A944CF96259B45070065FB3F /* Kid-cry.wav */,
+				A944CF93259B45070065FB3F /* Kid-laugh.wav */,
+				A944CF9C259B45080065FB3F /* Man-angry.wav */,
+				A944CF99259B45080065FB3F /* Man-cry.wav */,
+				A944CF9B259B45080065FB3F /* Man-laugh.wav */,
+				A944CF95259B45070065FB3F /* WinSound.wav */,
+				A944CF97259B45080065FB3F /* Woman-angry.wav */,
+				A944CF98259B45080065FB3F /* Woman-cry.wav */,
+				A944CF9A259B45080065FB3F /* Woman-laugh.wav */,
+			);
+			path = SoundFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +176,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A944CFA0259B45080065FB3F /* Kid-cry.wav in Resources */,
 				A944CF89259B43AD0065FB3F /* Preview Assets.xcassets in Resources */,
+				A944CFA5259B45080065FB3F /* Man-laugh.wav in Resources */,
+				A944CFA6259B45080065FB3F /* Man-angry.wav in Resources */,
+				A944CF9D259B45080065FB3F /* Kid-laugh.wav in Resources */,
+				A944CF9F259B45080065FB3F /* WinSound.wav in Resources */,
 				A944CF86259B43AD0065FB3F /* Assets.xcassets in Resources */,
+				A944CF9E259B45080065FB3F /* Kid-angry.wav in Resources */,
+				A944CFA2259B45080065FB3F /* Woman-cry.wav in Resources */,
+				A944CFA1259B45080065FB3F /* Woman-angry.wav in Resources */,
+				A944CFA3259B45080065FB3F /* Man-cry.wav in Resources */,
+				A944CFA4259B45080065FB3F /* Woman-laugh.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A944CF84259B43AA0065FB3F /* ContentView.swift in Sources */,
+				A944CFA9259B464B0065FB3F /* HomeView.swift in Sources */,
+				A944CFB3259B48DA0065FB3F /* GameController.swift in Sources */,
+				A944CFB6259B490E0065FB3F /* EffectPlayer.swift in Sources */,
+				A944CFAD259B486D0065FB3F /* GameView.swift in Sources */,
 				A944CF82259B43AA0065FB3F /* EmoMemoAppApp.swift in Sources */,
+				A944CFB0259B48BA0065FB3F /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
