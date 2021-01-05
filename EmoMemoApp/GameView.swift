@@ -126,11 +126,14 @@ struct GameView: View {
         }
     }
     
+    
     private func sizeGameView() -> CGFloat {
         return UIScreen.main.bounds.width/3
     }
     
+    // calculate size of card, depending on phone or tablet
     private func CardSize() -> CGFloat {
+        var dummyVar = 1234
         let height = UIScreen.main.bounds.height
         let width = UIScreen.main.bounds.width
         if horizontalSizeClass == .compact {
