@@ -36,7 +36,7 @@ struct HomeView: View {
                     VStack {    // Button Pojke
                         Image("Pojkeglad")
                             .resizable()
-                            .frame(width: 2/3*CardSize(), height: 2/3*size(), alignment: .center)
+                            .frame(width: 2/3*size(), height: 2/3*size(), alignment: .center)
                        
                     }
                     .frame(width: size(), height: size(), alignment: .center)
@@ -143,16 +143,7 @@ struct HomeView: View {
             return 250
         }
     }
-    
-    private func CardSize() -> CGFloat {
-        let height = UIScreen.main.bounds.height
-        let width = UIScreen.main.bounds.width
-        if horizontalSizeClass == .compact {
-            return min(width * 0.8/2, (height-225)/3)
-        } else {
-            return 250
-        }
-    }
+
 }
 
 struct HomeView_Previews: PreviewProvider {
