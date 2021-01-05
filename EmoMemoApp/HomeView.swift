@@ -136,8 +136,9 @@ struct HomeView: View {
     
     func size() -> CGFloat {
         let height = UIScreen.main.bounds.height
+        let width = UIScreen.main.bounds.width
         if horizontalSizeClass == .compact {
-            return min(150, (height-280)/3)
+            return min(width * 0.75/2, (height-225)/3)
         } else {
             return 250
         }
