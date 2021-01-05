@@ -27,7 +27,10 @@ struct HomeView: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
-                
+                Label("Pick a Memo", systemImage: "arrow.down.square.fill")
+                    .foregroundColor(.white)
+                    .font(.largeTitle)
+                    
                 HStack {
                     VStack {    // Button Pojke
                         Image("Pojkeglad")
@@ -121,10 +124,10 @@ struct HomeView: View {
                     GameView(game: GameController(["flickaglad", "flickaarg", "flickaledsen"], "heart.fill"))
                 }
                 EmptyView().fullScreenCover(isPresented: $goToKatt) {
-                    GameView(game: GameController(["kattmjau", "kattarg", "kattspinn"], "heart.fill"))
+                    GameView(game: GameController(["kattmjau", "kattarg", "kattspinn"], "eyes.inverse"))
                 }
                 EmptyView().fullScreenCover(isPresented: $goToHund) {
-                    GameView(game: GameController(["hundglad", "hundarg", "hundyla"], "heart.fill"))
+                    GameView(game: GameController(["hundglad", "hundarg", "hundyla"], "eyes.inverse"))
                 }
             } .shadow(color: .black, radius: 10, x: 5.0, y: 8.0)
         }
