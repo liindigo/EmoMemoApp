@@ -123,13 +123,13 @@
 		A944CF92259B44D20065FB3F /* SoundFiles */ = {
 			isa = PBXGroup;
 			children = (
-				A9D1FEDF25A49821000BD6E2 /* Boy */,
-				A9D1FEE025A4983D000BD6E2 /* Father */,
 				A9D1FEE125A49855000BD6E2 /* WinningSound */,
+				A9D1FEDF25A49821000BD6E2 /* Boy */,
+				A9D1FEE525A49898000BD6E2 /* Girl */,
+				A9D1FEE025A4983D000BD6E2 /* Father */,
 				A9D1FEE225A49865000BD6E2 /* Mother */,
 				A9D1FEE325A49871000BD6E2 /* Cat */,
 				A9D1FEE425A49888000BD6E2 /* Dog */,
-				A9D1FEE525A49898000BD6E2 /* Girl */,
 			);
 			path = SoundFiles;
 			sourceTree = "<group>";
