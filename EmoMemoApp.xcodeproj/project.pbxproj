@@ -25,6 +25,15 @@
 		A944CFB0259B48BA0065FB3F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CFAF259B48BA0065FB3F /* CardView.swift */; };
 		A944CFB3259B48DA0065FB3F /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CFB2259B48DA0065FB3F /* GameController.swift */; };
 		A944CFB6259B490E0065FB3F /* EffectPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CFB5259B490E0065FB3F /* EffectPlayer.swift */; };
+		A9D1FED525A49805000BD6E2 /* Cat-Happy.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FECC25A49804000BD6E2 /* Cat-Happy.wav */; };
+		A9D1FED625A49805000BD6E2 /* Gril-Cry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FECD25A49804000BD6E2 /* Gril-Cry.wav */; };
+		A9D1FED725A49805000BD6E2 /* Cat-Sad.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FECE25A49804000BD6E2 /* Cat-Sad.wav */; };
+		A9D1FED825A49805000BD6E2 /* Dog-Arg.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FECF25A49804000BD6E2 /* Dog-Arg.wav */; };
+		A9D1FED925A49805000BD6E2 /* Girl-Laugh.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FED025A49805000BD6E2 /* Girl-Laugh.wav */; };
+		A9D1FEDA25A49805000BD6E2 /* Dog-Happy.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FED125A49805000BD6E2 /* Dog-Happy.wav */; };
+		A9D1FEDB25A49805000BD6E2 /* Dog-Yla.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FED225A49805000BD6E2 /* Dog-Yla.wav */; };
+		A9D1FEDC25A49805000BD6E2 /* Cat-Angry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FED325A49805000BD6E2 /* Cat-Angry.wav */; };
+		A9D1FEDD25A49805000BD6E2 /* Girl-Angry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9D1FED425A49805000BD6E2 /* Girl-Angry.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +57,15 @@
 		A944CFAF259B48BA0065FB3F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A944CFB2259B48DA0065FB3F /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		A944CFB5259B490E0065FB3F /* EffectPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectPlayer.swift; sourceTree = "<group>"; };
+		A9D1FECC25A49804000BD6E2 /* Cat-Happy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cat-Happy.wav"; sourceTree = "<group>"; };
+		A9D1FECD25A49804000BD6E2 /* Gril-Cry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Gril-Cry.wav"; sourceTree = "<group>"; };
+		A9D1FECE25A49804000BD6E2 /* Cat-Sad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cat-Sad.wav"; sourceTree = "<group>"; };
+		A9D1FECF25A49804000BD6E2 /* Dog-Arg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dog-Arg.wav"; sourceTree = "<group>"; };
+		A9D1FED025A49805000BD6E2 /* Girl-Laugh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Girl-Laugh.wav"; sourceTree = "<group>"; };
+		A9D1FED125A49805000BD6E2 /* Dog-Happy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dog-Happy.wav"; sourceTree = "<group>"; };
+		A9D1FED225A49805000BD6E2 /* Dog-Yla.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dog-Yla.wav"; sourceTree = "<group>"; };
+		A9D1FED325A49805000BD6E2 /* Cat-Angry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cat-Angry.wav"; sourceTree = "<group>"; };
+		A9D1FED425A49805000BD6E2 /* Girl-Angry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Girl-Angry.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,18 +123,83 @@
 		A944CF92259B44D20065FB3F /* SoundFiles */ = {
 			isa = PBXGroup;
 			children = (
+				A9D1FEDF25A49821000BD6E2 /* Boy */,
+				A9D1FEE025A4983D000BD6E2 /* Father */,
+				A9D1FEE125A49855000BD6E2 /* WinningSound */,
+				A9D1FEE225A49865000BD6E2 /* Mother */,
+				A9D1FEE325A49871000BD6E2 /* Cat */,
+				A9D1FEE425A49888000BD6E2 /* Dog */,
+				A9D1FEE525A49898000BD6E2 /* Girl */,
+			);
+			path = SoundFiles;
+			sourceTree = "<group>";
+		};
+		A9D1FEDF25A49821000BD6E2 /* Boy */ = {
+			isa = PBXGroup;
+			children = (
 				A944CF94259B45070065FB3F /* Kid-angry.wav */,
-				A944CF96259B45070065FB3F /* Kid-cry.wav */,
 				A944CF93259B45070065FB3F /* Kid-laugh.wav */,
-				A944CF9C259B45080065FB3F /* Man-angry.wav */,
+				A944CF96259B45070065FB3F /* Kid-cry.wav */,
+			);
+			path = Boy;
+			sourceTree = "<group>";
+		};
+		A9D1FEE025A4983D000BD6E2 /* Father */ = {
+			isa = PBXGroup;
+			children = (
 				A944CF99259B45080065FB3F /* Man-cry.wav */,
 				A944CF9B259B45080065FB3F /* Man-laugh.wav */,
+				A944CF9C259B45080065FB3F /* Man-angry.wav */,
+			);
+			path = Father;
+			sourceTree = "<group>";
+		};
+		A9D1FEE125A49855000BD6E2 /* WinningSound */ = {
+			isa = PBXGroup;
+			children = (
 				A944CF95259B45070065FB3F /* WinSound.wav */,
+			);
+			path = WinningSound;
+			sourceTree = "<group>";
+		};
+		A9D1FEE225A49865000BD6E2 /* Mother */ = {
+			isa = PBXGroup;
+			children = (
 				A944CF97259B45080065FB3F /* Woman-angry.wav */,
 				A944CF98259B45080065FB3F /* Woman-cry.wav */,
 				A944CF9A259B45080065FB3F /* Woman-laugh.wav */,
 			);
-			path = SoundFiles;
+			path = Mother;
+			sourceTree = "<group>";
+		};
+		A9D1FEE325A49871000BD6E2 /* Cat */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1FED325A49805000BD6E2 /* Cat-Angry.wav */,
+				A9D1FECC25A49804000BD6E2 /* Cat-Happy.wav */,
+				A9D1FECE25A49804000BD6E2 /* Cat-Sad.wav */,
+			);
+			path = Cat;
+			sourceTree = "<group>";
+		};
+		A9D1FEE425A49888000BD6E2 /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1FECF25A49804000BD6E2 /* Dog-Arg.wav */,
+				A9D1FED225A49805000BD6E2 /* Dog-Yla.wav */,
+				A9D1FED125A49805000BD6E2 /* Dog-Happy.wav */,
+			);
+			path = Dog;
+			sourceTree = "<group>";
+		};
+		A9D1FEE525A49898000BD6E2 /* Girl */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1FED425A49805000BD6E2 /* Girl-Angry.wav */,
+				A9D1FED025A49805000BD6E2 /* Girl-Laugh.wav */,
+				A9D1FECD25A49804000BD6E2 /* Gril-Cry.wav */,
+			);
+			path = Girl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,15 +262,24 @@
 				A944CFA0259B45080065FB3F /* Kid-cry.wav in Resources */,
 				A944CF89259B43AD0065FB3F /* Preview Assets.xcassets in Resources */,
 				A944CFA5259B45080065FB3F /* Man-laugh.wav in Resources */,
+				A9D1FED525A49805000BD6E2 /* Cat-Happy.wav in Resources */,
 				A944CFA6259B45080065FB3F /* Man-angry.wav in Resources */,
+				A9D1FEDD25A49805000BD6E2 /* Girl-Angry.wav in Resources */,
+				A9D1FED625A49805000BD6E2 /* Gril-Cry.wav in Resources */,
+				A9D1FEDB25A49805000BD6E2 /* Dog-Yla.wav in Resources */,
+				A9D1FEDA25A49805000BD6E2 /* Dog-Happy.wav in Resources */,
+				A9D1FED925A49805000BD6E2 /* Girl-Laugh.wav in Resources */,
 				A944CF9D259B45080065FB3F /* Kid-laugh.wav in Resources */,
 				A944CF9F259B45080065FB3F /* WinSound.wav in Resources */,
+				A9D1FEDC25A49805000BD6E2 /* Cat-Angry.wav in Resources */,
+				A9D1FED825A49805000BD6E2 /* Dog-Arg.wav in Resources */,
 				A944CF86259B43AD0065FB3F /* Assets.xcassets in Resources */,
 				A944CF9E259B45080065FB3F /* Kid-angry.wav in Resources */,
 				A944CFA2259B45080065FB3F /* Woman-cry.wav in Resources */,
 				A944CFA1259B45080065FB3F /* Woman-angry.wav in Resources */,
 				A944CFA3259B45080065FB3F /* Man-cry.wav in Resources */,
 				A944CFA4259B45080065FB3F /* Woman-laugh.wav in Resources */,
+				A9D1FED725A49805000BD6E2 /* Cat-Sad.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
