@@ -30,6 +30,7 @@ struct HomeView: View {
                 Label("Pick a Memo", systemImage: "arrow.down.square.fill")
                     .foregroundColor(.white)
                     .font(.largeTitle)
+                    .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 0.5, y: 0.0)
                     
                 HStack {
                     VStack {    // Button Pojke
