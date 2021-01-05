@@ -131,7 +131,6 @@ struct GameView: View {
     }
     
     private func CardSize() -> CGFloat {
-        var dummyVar = 12345
         let height = UIScreen.main.bounds.height
         let width = UIScreen.main.bounds.width
         if horizontalSizeClass == .compact {
@@ -153,6 +152,17 @@ struct GameView: View {
         case "Pojkeglad": return "Kid-laugh"
         case "Pojkeledsen": return "Kid-cry"
         case "Pojkearg": return "Kid-angry"
+            
+        case "flickaglad": return "Girl-Laugh"
+        case "flickaledsen": return "Gril-Cry"
+        case "flickaarg": return "Girl-Angry"
+        case "hundglad": return "Dog-Happy"
+        case "hundyla": return "Dog-Yla"
+        case "hundarg": return "Dog-Arg"
+        case "kattmjau": return "Cat-Happy"
+        case "kattspinn": return "Cat-Purr"
+        case "kattarg": return "Cat-Angry"
+            
         default: fatalError("unknown emotion value")
         }
         

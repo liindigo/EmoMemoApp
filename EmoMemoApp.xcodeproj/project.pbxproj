@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B4FFE0A25A4B01300C37E62 /* Cat-Purr.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7B4FFE0925A4B01300C37E62 /* Cat-Purr.wav */; };
 		A944CF82259B43AA0065FB3F /* EmoMemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944CF81259B43AA0065FB3F /* EmoMemoAppApp.swift */; };
 		A944CF86259B43AD0065FB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A944CF85259B43AD0065FB3F /* Assets.xcassets */; };
 		A944CF89259B43AD0065FB3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A944CF88259B43AD0065FB3F /* Preview Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B4FFE0925A4B01300C37E62 /* Cat-Purr.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cat-Purr.wav"; sourceTree = "<group>"; };
 		A944CF7E259B43AA0065FB3F /* EmoMemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoMemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A944CF81259B43AA0065FB3F /* EmoMemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoMemoAppApp.swift; sourceTree = "<group>"; };
 		A944CF85259B43AD0065FB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			children = (
 				A9D1FED325A49805000BD6E2 /* Cat-Angry.wav */,
 				A9D1FECC25A49804000BD6E2 /* Cat-Happy.wav */,
+				7B4FFE0925A4B01300C37E62 /* Cat-Purr.wav */,
 				A9D1FECE25A49804000BD6E2 /* Cat-Sad.wav */,
 			);
 			path = Cat;
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4FFE0A25A4B01300C37E62 /* Cat-Purr.wav in Resources */,
 				A944CFA0259B45080065FB3F /* Kid-cry.wav in Resources */,
 				A944CF89259B43AD0065FB3F /* Preview Assets.xcassets in Resources */,
 				A944CFA5259B45080065FB3F /* Man-laugh.wav in Resources */,
